@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+ }
+
+nav {
+     display: flex;
+     justify-content: space-around;
+}
+
+li {
+     list-style: none;
+}
+
+a {
+     color: black;
+     text-transform: uppercase;
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px 0;
+     cursor: pointer;
+}
+
+h2 {
+    color: cadetblue;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    color: darkcyan;
+    padding-left: 30px;
+}
+
+p:not(:last-child) {
+    margin-bottom: 20px;
+}
